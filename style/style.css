@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Clash Display";
+  font-weight: normal;
+  src: url("../fonts/ClashDisplay-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Clash Medium";
+  font-weight: normal;
+  src: url("../fonts/ClashDisplay-Medium.woff") format("woff");
+}
+
+a {
+  font-family: "Clash Medium", sans-serif;
+}
+
+h1 {
+  font-family: "Clash Display", sans-serif;
+}
