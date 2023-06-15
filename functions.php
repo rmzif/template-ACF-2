@@ -6,7 +6,12 @@
    add_action('wp_enqueue_scripts', 'load_css');
 
 
-   
+    function followrayan_theme_support() {
+         // Adds dynamic title tag support
+        add_theme_support('title-tag');
+        add_theme_support('post-thumbnails');
+    }
+    add_action('after_setup_theme', 'followrayan_theme_support');
     
     function followrayan_menus() {
         $locations = array(
@@ -31,12 +36,38 @@
     add_action('wp_enqueue_scripts', 'rayan_register_scripts');
 
  
- 
+
+    function create_custom_post_type() {
+        $args = array(
+          'label' => 'Actualiteit',
+          'public' => true,
+          'show_ui' => true,
+          'show_in_menu' => true,
+          'capability_type' => 'post',
+          'hierarchical' => false,
+          'rewrite' => array('slug' => 'actualiteit'),
+          'query_var' => true,
+          'supports' => array(
+            'title',
+            'editor',
+            'excerpt',
+            'trackbacks',
+            'custom-fields',
+            'comments',
+            'revisions',
+            'thumbnail',
+            'author',
+            'page-attributes',)
+          );
+        register_post_type( 'actualiteit', $args );
+      }
+      add_action( 'init', 'create_custom_post_type' );
+      
 
 
     // tailwindcss config file
     function get_config_file() {
-        wp_enqueue_script("main", get_template_directory_uri() . "/tailwindconfig.js", array('jquery'));
+        wp_enqueue_script("main", get_template_directory_uri() . "/config.js", array('jquery'));
       }
       add_action("wp_enqueue_scripts", "get_config_file",11);
 
@@ -52,15 +83,6 @@ add_action('wp_enqueue_scripts', 'load_gsap');
 
  // gsap config js file
  function get_gsap_config_file() {
-  wp_enqueue_script("second", get_template_directory_uri() . "/configuregsap.js", array('jquery'));
+  wp_enqueue_script("second", get_template_directory_uri() . "/congsap.js", array('jquery'));
 }
 add_action("wp_enqueue_scripts", "get_gsap_config_file",11);
-      
-
- 
-
-
-     
- 
-
-?>

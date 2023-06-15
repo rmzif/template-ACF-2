@@ -12,11 +12,11 @@
     <div class="gap-8 flex flex-1 justify-end">
       <a href="#" class="text-small leading-6 text-black">CONTACT</a>
       <a href="#" class="text-small leading-6 text-black">WORK</a>
-      <a href="#" class="text-small lg:text-small leading-6 text-black" >
+      <a href="#" class="text-small lg:text-small leading-6 text-black">
         <span class="bg-green w-4 h-9" aria-hidden="true">
-        GET IN TOUCH
-        </span> 
- 
+          GET IN TOUCH
+        </span>
+
       </a>
     </div>
   </nav>
