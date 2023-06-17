@@ -3,8 +3,8 @@
 tailwind.config = {
     theme: {
         fontSize: {
-            sm: '0.8rem',
-            base: '1rem',
+            sm: '13px',
+            base: '4rem',
             xl: '20px',
             '1xl': '40px',
             '2xl': '48px',
