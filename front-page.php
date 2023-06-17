@@ -3,7 +3,8 @@
                 <?php get_template_part( 'template-parts/content', 'hero' ); ?>	
                 <?php get_template_part('template-parts/content', 'stats'); ?>
                 <?php get_template_part('template-parts/content', 'myclients'); ?>
-                <?php get_template_part('template-parts/content', 'work'); ?>
+                <?php get_template_part('template-parts/content', 'services'); ?>
+
         </div>
 <?php get_footer(); ?>
 
