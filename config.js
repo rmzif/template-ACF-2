@@ -3,9 +3,9 @@
 tailwind.config = {
     theme: {
         fontSize: {
-            sm: '13px',
+            sm: '1.125rem',
             base: '4rem',
-            xl: '20px',
+            xl: '2rem',
             '1xl': '40px',
             '2xl': '48px',
             '3xl': '100px',
@@ -14,6 +14,7 @@ tailwind.config = {
             '6xl': '120px',
             '7xl': '100px',
             '8xl': '14rem',
+            '9xl': '65px'
             
           },
            
@@ -24,6 +25,8 @@ colors: {
     'yellow': '#FFFF00',
     'purple': '#800080',
     'blue': '#0000FF',
+    'gray': '#F8F8F8',
+    'grey': 'rgb(229 231 235)'
 }
  
 
