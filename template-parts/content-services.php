@@ -10,7 +10,6 @@
   <div class="lg:h-20 grid col-span-6 lg:col-start-1 lg:col-end-4 justify-start lg:sticky lg:relative lg:top-0 lg:z-10">
     <h1 class="text-3xl lg:text-base">BRANDS</h1>
     <h1 class="text-3xl lg:text-base ">SERVICES</h1>
-
   </div>
   <!-- FIRST CARD -->
   <div class="grid col-span-6 lg:col-start-4 lg:col-end-7 bg-gray mt-12 ml-12 mr-12 lg:ml-0 lg:mr-0 sticky relative top-4 z-10">

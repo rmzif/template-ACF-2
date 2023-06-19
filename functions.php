@@ -42,31 +42,31 @@ add_action('wp_enqueue_scripts', 'rayan_register_scripts');
 
 
 
-// function create_custom_post_type() {
-//     $args = array(
-//       'label' => 'Actualiteit',
-//       'public' => true,
-//       'show_ui' => true,
-//       'show_in_menu' => true,
-//       'capability_type' => 'post',
-//       'hierarchical' => false,
-//       'rewrite' => array('slug' => 'actualiteit'),
-//       'query_var' => true,
-//       'supports' => array(
-//         'title',
-//         'editor',
-//         'excerpt',
-//         'trackbacks',
-//         'custom-fields',
-//         'comments',
-//         'revisions',
-//         'thumbnail',
-//         'author',
-//         'page-attributes',)
-//       );
-//     register_post_type( 'actualiteit', $args );
-//   }
-//   add_action( 'init', 'create_custom_post_type' );
+function create_custom_post_type() {
+    $args = array(
+      'label' => 'Works',
+      'public' => true,
+      'show_ui' => true,
+      'show_in_menu' => true,
+      'capability_type' => 'post',
+      'hierarchical' => false,
+      'rewrite' => array('slug' => 'works'),
+      'query_var' => true,
+      'supports' => array(
+        'title',
+        'editor',
+        'excerpt',
+        'trackbacks',
+        'custom-fields',
+        'comments',
+        'revisions',
+        'thumbnail',
+        'author',
+        'page-attributes',)
+      );
+    register_post_type( 'Works', $args );
+  }
+  add_action( 'init', 'create_custom_post_type' );
 
 
 
