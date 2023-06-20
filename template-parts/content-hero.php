@@ -5,15 +5,17 @@
    </div>
    <!-- small under text hero page -->
    <div class="grid col-span-4  ml-12 justify-start">
+    
      <a class="text-2xl">BRAND DESIGNER FROM BERLIN</a>
    </div>
+
+  
    <!-- image border -->
-   <div class="bg-green grid col-span-4 ml-12 mr-12 mt-12">
-     <div class="mt-4">
-       <a class="font-thin text-xl lg:text-sm grid justify-center">DESIGN</a>
-     </div>
+   <div class="  grid col-span-4 ml-12 mr-12 mt-12">
+   
      <div><img class="mt-4" src="http://localhost/wordpress/wp-content/uploads/2023/06/HeroMock-min.png" alt="Hero Mock"></div>
    </div>
  </div>
  </div>
+ 
  

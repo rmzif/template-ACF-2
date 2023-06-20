@@ -17,7 +17,7 @@
          </div>
      </div>
      <div class="mt-4 grid justify-center bg-black grid col-span-4">
-         <a class="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+         <a class="group relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/wordpress/contact">
              <span class="absolute inset-0 translate-x-0 translate-y-0 bg-green transition-transform group-hover:translate-y-0.5 group-hover:translate-x-0.5"></span>
 
              <span class="text-xl lg:text-sm relative block border border-current bg-green px-8 py-2">

@@ -1,19 +1,21 @@
 <?php wp_head(); ?>
 
-<header class=" sticky top-0">
+ 
+
+
+<header class="sticky top-0 bg-white">
   <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="/wordpress" class="-m-1.5 p-1.5">
         <span class="sr-only">Company Name</span>
-        <img class="h-8 w-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/svg/Logo.svg" alt="header-logo">
+        <img class="lg:h-8 h-20 w-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/svg/Logo.svg" alt="header-logo">
       </a>
     </div>
 
-    <div class="gap-8 flex flex-1 justify-end">
-      <a href="/wordpress/clients" class="relative font-medium text-black before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-green before:transition hover:before:scale-100" href="/download">
+    <div class="gap-8 flex flex-1 justify-end items-center">  
+      <a href="/wordpress/clients" class="text-xl lg:text-sm relative font-medium text-black before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-green before:transition hover:before:scale-100">
         WORK
       </a>
- 
 
       <a class="group relative inline-flex items-center overflow-hidden bg-green px-8 py-1 text-black focus:outline-none focus:ring active:bg-black" href="/wordpress/contact">
         <span class="absolute -start-full transition-all group-hover:start-4">
@@ -22,12 +24,10 @@
           </svg>
         </span>
 
-        <span class="text-sm font-medium transition-all group-hover:ms-4">
+        <span class="text-xl lg:text-sm font-medium transition-all group-hover:ms-4">
           CONTACT US
         </span>
       </a>
-
-
     </div>
   </nav>
 </header>

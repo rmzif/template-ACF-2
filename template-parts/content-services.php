@@ -7,12 +7,12 @@
   </div>
 
   <!-- firs word -->
-  <div class="lg:h-20 grid col-span-6 lg:col-start-1 lg:col-end-4 justify-start lg:sticky lg:relative lg:top-0 lg:z-10">
+  <div class="lg:h-20 grid col-span-6 lg:col-start-1 lg:col-end-4 justify-start lg:sticky lg:relative lg:top-24 lg:z-10">
     <h1 class="text-3xl lg:text-base">BRANDS</h1>
     <h1 class="text-3xl lg:text-base ">SERVICES</h1>
   </div>
   <!-- FIRST CARD -->
-  <div class="grid col-span-6 lg:col-start-4 lg:col-end-7 bg-gray mt-12 ml-12 mr-12 lg:ml-0 lg:mr-0 sticky relative top-4 z-10">
+  <div class="grid col-span-6 lg:col-start-4 lg:col-end-7 bg-gray mt-12 ml-12 mr-12 lg:ml-0 lg:mr-0 sticky relative top-32 lg:top-4 z-10">
     <div class="mt-12 ml-12 mr-12 lg:flex lg:items-center gap-3">
       <svg class="w-16 h-16 lg:w-10 lg:h-10" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M24 0.996826L17.4545 18.4514L0 24.9968L17.4545 31.5423L24 48.9968L30.5455 31.5423L48 24.9968L30.5455 18.4514L24 0.996826Z" fill="#D2F65A" />
@@ -24,7 +24,7 @@
   </div>
 
   <!-- SECOND CARD  -->
-  <div class="grid col-span-6 lg:col-start-4 lg:col-end-7 bg-gray mt-12  ml-12 mr-12 lg:ml-0 lg:mr-0 sticky relative top-4 z-10">
+  <div class="grid col-span-6 lg:col-start-4 lg:col-end-7 bg-gray mt-12  ml-12 mr-12 lg:ml-0 lg:mr-0 sticky relative top-32 lg:top-4 z-10">
     <div class="mt-12 ml-12 mr-12 lg:flex lg:items-center gap-3">
     <svg class="w-16 h-16 lg:w-10 lg:h-10" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M24 0.996826L17.4545 18.4514L0 24.9968L17.4545 31.5423L24 48.9968L30.5455 31.5423L48 24.9968L30.5455 18.4514L24 0.996826Z" fill="#D2F65A" />
@@ -36,7 +36,7 @@
   </div>
 
   <!-- THIRD CARD -->
-  <div class="grid col-span-6 lg:col-start-4 lg:col-end-7 bg-gray mt-12  ml-12 mr-12 lg:ml-0 lg:mr-0 sticky relative top-4 z-10">
+  <div class="grid col-span-6 lg:col-start-4 lg:col-end-7 bg-gray mt-12  ml-12 mr-12 lg:ml-0 lg:mr-0 sticky relative top-32 lg:top-4 z-10">
     <div class="mt-12 ml-12 mr-12 lg:flex lg:items-center gap-3">
     <svg class="w-16 h-16 lg:w-10 lg:h-10" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M24 0.996826L17.4545 18.4514L0 24.9968L17.4545 31.5423L24 48.9968L30.5455 31.5423L48 24.9968L30.5455 18.4514L24 0.996826Z" fill="#D2F65A" />

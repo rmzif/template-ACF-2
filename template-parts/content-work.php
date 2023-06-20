@@ -3,7 +3,7 @@
 
 <div class="grid grid-cols-4 mt-40 gap-4">
   <div class="border-t-4 col-span-4 border-black">
-    <a class="text-2xl text-black">SELECTED WORK SELECTED WORK SELECTED WORK</a>
+  
   </div>
   <!-- image 1 -->
   <div class="grid justify-center mr-12 ml-12 mt-12 grid col-span-4 lg:col-span-2">

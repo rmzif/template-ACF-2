@@ -26,7 +26,8 @@ colors: {
     'purple': '#800080',
     'blue': '#0000FF',
     'gray': '#F8F8F8',
-    'grey': 'rgb(229 231 235)'
+    'grey': 'rgb(229 231 235)',
+    'red': 'red'
 }
  
 

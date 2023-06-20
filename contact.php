@@ -2,18 +2,21 @@
 <?php get_header(); ?>
 
 
-<!-- je moet tekst in die bar doen wanneer iemadn iets invult, en je moet een button maken, en je moet de  footer aanpassen, en de margin aanpasse op de teksten -->
+<!--   en je moet de  footer aanpassen, en de profiel maken -->
 
 
 <div class="grid grid-cols-6  mt-32 lg:mt-20">
-    <div class="ml-12 grid col-span-6 lg:col-span-3">
+    <div class="ml-12 lg:ml-24 grid col-span-6 lg:col-span-3">
         <div class="">
-            <a class="text-xl lg:text-sm text-grey">- CONTACT</a>
-            <h1 class="text-3xl lg:text-base">BRANDS</h1>
-            <h1 class="text-3xl lg:text-base ">SERVICES</h1>
+            <a class="text-xl lg:text-sm text-grey ">- CONTACT</a>
+            <h1 class="text-3xl lg:text-base h-24 lg:h-16 ">BRANDS</h1>
+            <h1 class="text-3xl lg:text-base">SERVICES</h1>
         </div>
-        <div class="  ">
-            profiel?
+        <div class="ml-2 ml-0 flex items-center">
+            
+            <img class="w-24 h-24" src="http://localhost/wordpress/wp-content/uploads/2023/06/ProfileBanner.png"></img>
+            <a class="ml-4 text-sm">Random Name</a>
+           
         </div>
     </div>
     <!-- CONTACT FORM -->
@@ -37,9 +40,5 @@
     </div>
 </div>
 
-<div class="grid grid-cols-1">
-    <div class="grid col-span-1 bg-green">
-        
-    </div>
-</div>
+ 
 <?php get_footer(); ?>
